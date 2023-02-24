@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import SearchIcon from "./SearchIcon";
 import { useEffect } from "react";
 import { useState } from "react";
@@ -7,8 +8,12 @@ import Styled from "../Styled/Navbar.module.css";
 const Navbar = (props) => {
   const [scroll, setScroll] = useState(0);
   // const [event, SetEvent] = useState(true);
+  // Thay đổi class khi thay đổi tọa độ. Trạng thái class scroll và trạng thái class Scroll_state2
   const classess = `${scroll > 100 ? Styled.Scroll : Styled.Scroll_state2}`;
 
+  const handleSearch = () => {
+    window.location.assign("/Search/"); // Quay lại trang Search
+  };
   useEffect(() => {
     const onScroll = () => setScroll(window.pageYOffset); // Lấy số liệu từ việc scroll
     // clean up code
@@ -19,20 +24,10 @@ const Navbar = (props) => {
   }, []);
   // console.log(scroll);
   return (
-    <div className={Styled.image}>
-      <div className={classess}>
-        <div className={Styled.navbar}>
-          <a href="./Browse">Movie App</a>
-          <SearchIcon />
-        </div>
-      </div>
-      <p>{props.onData.name}</p>
-      <div>
-        <button className={Styled.button_play}>Play</button>
-        <button className={Styled.button_Mylist}>My List</button>
-      </div>
-      <div>
-        <p>{props.onData.overview}</p>
+    <div className={classess}>
+      <div className={Styled.navbar}>
+        <Link to="/">Movie App</Link>
+        <SearchIcon onClick={handleSearch} />
       </div>
     </div>
   );
