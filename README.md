@@ -1,2 +1,2 @@
-# BookHotel
+# WebMovies
 My project about ReactJS
