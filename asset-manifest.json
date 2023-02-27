@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/WebMovies/static/css/main.aaeec1ec.chunk.css",
+    "main.js": "/WebMovies/static/js/main.b51bcace.chunk.js",
+    "main.js.map": "/WebMovies/static/js/main.b51bcace.chunk.js.map",
+    "runtime-main.js": "/WebMovies/static/js/runtime-main.79384fb4.js",
+    "runtime-main.js.map": "/WebMovies/static/js/runtime-main.79384fb4.js.map",
+    "static/js/2.a194709d.chunk.js": "/WebMovies/static/js/2.a194709d.chunk.js",
+    "static/js/2.a194709d.chunk.js.map": "/WebMovies/static/js/2.a194709d.chunk.js.map",
+    "index.html": "/WebMovies/index.html",
+    "precache-manifest.93eacd2640f38c22a345fe6b3c03c5f0.js": "/WebMovies/precache-manifest.93eacd2640f38c22a345fe6b3c03c5f0.js",
+    "service-worker.js": "/WebMovies/service-worker.js",
+    "static/css/main.aaeec1ec.chunk.css.map": "/WebMovies/static/css/main.aaeec1ec.chunk.css.map",
+    "static/js/2.a194709d.chunk.js.LICENSE.txt": "/WebMovies/static/js/2.a194709d.chunk.js.LICENSE.txt",
+    "static/js/main.b51bcace.chunk.js.LICENSE.txt": "/WebMovies/static/js/main.b51bcace.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.79384fb4.js",
+    "static/js/2.a194709d.chunk.js",
+    "static/css/main.aaeec1ec.chunk.css",
+    "static/js/main.b51bcace.chunk.js"
+  ]
+}
